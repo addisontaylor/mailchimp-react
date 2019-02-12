@@ -1,0 +1,144 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center; 
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    border-bottom: 0px solid #ffe01b;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+    text-transform: capitalize;
+}
+
+.Header:hover {
+    background: #ffffff;
+    padding: 50px 0px 10px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.HeaderLeft {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    text-align: center; 
+    align-items: center;
+    justify-items: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+}
+
+.HeaderLeft a {
+    color: #241c15;
+    text-transform: capitalize;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.HeaderLeft a:hover {
+    color: #007c89;
+}
+
+.HeaderRight {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    text-align: center; 
+    align-items: center;
+    justify-items: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+.Header a {
+    padding: 0px 50px 0px 0px;
+}
+
+.LogIn a {
+    color: #241c15;
+    border: 1px solid #241c157a;
+    padding: 15px 35px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.LogIn a:hover {
+    color: #241c15;
+    border: 1px solid #241c15;
+    padding: 15px 35px
+}
+
+.SignUp a {
+    color: #ffffff;
+    background: #007c89;
+    margin-left: 20px;
+    padding: 15px 20px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.SignUp a:hover {
+    color: #ffffff;
+    background: #1e474e;
+    padding: 15px 20px;
+}
+
+.Search a {
+    fill: #241c15;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.Search a:hover {
+    fill: #007c89;
+}
+
+.HeaderLeftMenu {
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+@media (max-width: 1280px) {
+    .HeaderLeft {
+        letter-spacing: -0.5px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .HeaderRight {
+        letter-spacing: -0.5px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .Search a {
+        display: none;
+    }
+}
+
+@media (max-width: 1080px) {
+    .HeaderLeftMenu {
+        display: none;
+        transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+    }
+}
+
+@media (max-width: 1080px) {
+    .LogIn a {
+        display: none;
+    }
+}
+
+@media (max-width: 1080px) {
+    .SignUp a {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 640px) {
+    .Header {
+        padding: 20px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 640px) {
+    .Header:hover {
+        padding: 20px 0px 0px 0px;
+    }
+}
