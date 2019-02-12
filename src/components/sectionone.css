@@ -1,0 +1,18 @@
+.SectionOne {
+    height: 720px;
+    background-color: #ffffff;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 100px 50px 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    z-index: 1;
+}
+
+.SectionOneHead {
+    text-align: center;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    max-width: 600px;
+}
